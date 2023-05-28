@@ -17,7 +17,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 30%;
-    height: 500%;
+    height: 180%;
 }
 
 .left-block-top {
@@ -29,7 +29,7 @@ a {
 .center-block {
     display: flex;
     flex-direction: column;
-    height: 500%;
+    height: 180%;
     width: 40%;
     margin-right: -5px;
     position: relative;
@@ -170,8 +170,8 @@ a {
     height: 100px;
     flex: 100px;
     margin-top: 0px;
-    margin-left: 5px;
-    background-color: blue;
+    margin-left: 0px;
+    background-color: black;
     position: absolute;
     bottom: 0;
     display:block;
@@ -182,7 +182,7 @@ a {
     background-color: black;
     display: flex;
     flex-direction: column;
-    height: 500%;
+    height: 180%;
     width: 30%;
     margin-left: 5px;
     
