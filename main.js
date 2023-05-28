@@ -30,8 +30,15 @@ const ghost5 = ["ghost5", "together"]
 
 const ghost6 = ["ghost6", "locusts"]
 
+const albums = ["albums"]
 
-let inputVa
+const band = ["band"]
+
+const news = ["news"]
+
+const about = ["about"]
+
+let inputVa = document.getElementsByClassName("center-textbar")[0].value;
 
 function getInputValue() {
      inputVa = document.getElementsByClassName("center-textbar")[0].value;
@@ -93,6 +100,22 @@ function getInputValue() {
 
           if (inputVa == ghost6[i]){
                window.location.href = "locusts.html";
+          }
+
+          if (inputVa == albums[i]){
+               window.location.href = "main.html";
+          }
+
+          if (inputVa == band[i]){
+               window.location.href = "band.html";
+          }
+
+          if (inputVa == news[i]){
+               window.location.href = "news.html";
+          }
+
+          if (inputVa == about[i]){
+               window.location.href = "about.html";
           }
      }
 

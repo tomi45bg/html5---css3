@@ -3,10 +3,10 @@
 
 <head>
   <title>
-    Something new..
+    Nine Inch Nails
   </title>
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="about.css">
 </head>
 
 <body>
@@ -19,9 +19,15 @@
     </div>
     <div class="center-block">
       <div class="center-block-top">
-          <img class="logo-nin" src="nin-logo.svg">   
+          <a href="main.html">
+            <img class="logo-nin" src="nin-logo.svg">   
+          </a>
           <input class="center-textbar" 
           placeholder="Search">
+          <button class="center-button"
+          onclick="getInputValue();">
+            Enter
+          </button>
       </div>
 
       <div class="center-block-middle">
@@ -29,7 +35,7 @@
         <div class="center-block-info">
           <div class="center-block-info-home">
             <a href="main.html">
-              Home
+              Albums
             </a>
           </div>
 
@@ -52,46 +58,26 @@
           </div>
         </div>
 
-        <div class="PHM">
+        <div class="text">
+            <p class="text-info">
+                Nine inch nails fan site created by
+            </p>
 
-          <img class="PHM-image" src="PHM.jpg">
- 
-           <div class="PHM-text">
-             Pretty Hate Machine
-           </div>
+            <p class="text-name">
+                Tomas Miroslavov Lazarov
+            </p>
+
+            <p class="text-id">
+                23311012
+            </p>
         </div>
 
-        <div class="broken">
-
-          <img class="broken-image" src="broken.jpg">
-        
-           <div class="broken-text">
-             Broken
-           </div>
+        <div class="photo">
+            <img src="aboutPagePic.jpg" class="photo-nin">
         </div>
 
-        <div class="TDS">
-
-         <img class="TDS-image" src="TDS.jpg">
-
-          <div class="TDS-text">
-            The Downward Spiral 
-          </div>
         </div>
 
-        <div class="TF">
-
-          <img class="TF-image" src="fragile.jpg">
- 
-           <div class="TF-text">
-             The Fragile
-           </div>
-         </div>
-      </div>
-
-      <div class="center-block-bottom">
-        dsa
-      </div>
 
     </div>
     <div class="right-block">
@@ -110,6 +96,9 @@
       </div>
     </div>
   </div>
+
+  <script src="main.js">
+  </script>
 </body>
 
 </html>
