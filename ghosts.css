@@ -29,7 +29,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 30%;
-    height: 302%;
+    height: 253%;
 }
 
 .left-block-top {
@@ -41,7 +41,7 @@ a {
 .center-block {
     display: flex;
     flex-direction: column;
-    height: 302;
+    height: 253%;
     width: 40%;
     margin-right: -5px;
     position: relative;
@@ -153,25 +153,26 @@ a {
     background-color: #a2a9b1;
 }
 
-.year_zero-name {
+.ghosts-name {
     margin-top: 15px;
     margin-left: 15px;
     font-size: 30px;
     font-family: 'DINEngschrift', 'Arial', sans-serif;
 }
 
-.year_zero-info-image1 {
-    height: 410px;
+.ghosts-info-image1 {
+    height: 585px;
+    margin-right: 15px;
 }
 
-.year_zero-info {
+.ghosts-info {
     margin: 15px;
     width: 100%;
     font-size: 22px;
 
 }
 
-.year_zero-image-1 {
+.ghosts-image-1 {
     width: 400px;
     height: 350px;
     float: right;
@@ -179,7 +180,7 @@ a {
     flex-direction: column;
 }
 
-.year_zero-image-1-1 {
+.ghosts-image-1-1 {
     width: 300px;
     height: 300px;
     border: 1px solid black;
@@ -187,7 +188,7 @@ a {
     align-self: center;
 }
 
-.year_zero-halo {
+.ghosts-halo {
     align-self: center;
     margin-top: 15px;
     margin-bottom: 0px;
@@ -299,6 +300,10 @@ a {
     border: 1px black solid;
     margin: 10px;
 
+}
+
+.inspiration-text {
+    font-size: 22px;
 }
 
 .audio {
@@ -418,7 +423,7 @@ a {
     background-color: black;
     display: flex;
     flex-direction: column;
-    height: 302%;
+    height: 253%;
     width: 30%;
     margin-left: 5px;
 
