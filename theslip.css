@@ -1,0 +1,453 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: black;
+}
+
+#full-size {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    #full-size {
+        height: 375%;
+    }
+}
+
+.left-block {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 278%;
+}
+
+.left-block-top {
+    display: inline-block;
+    background-color: gray;
+    height: 100px;
+}
+
+.center-block {
+    display: flex;
+    flex-direction: column;
+    height: 278%;
+    width: 40%;
+    margin-right: -5px;
+    position: relative;
+    min-height: 150px;
+}
+
+.center-block-top {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+    background-color: grey;
+}
+
+.logo-nin {
+    height: 95px;
+    width: 250px;
+    display: inline-block;
+}
+
+.center-textbar {
+    display: inline-block;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    height: 25px;
+    flex: 1;
+
+    background: url(zoom.png) no-repeat scroll 5px 5px;
+    padding-left: 30px;
+    background-size: 20px;
+}
+
+.center-textbar::placeholder {
+    color: black;
+}
+
+.center-button {
+    display: inline-block;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    height: 32px;
+    margin-left: 10px;
+    border-radius: 2px;
+    border-style: none;
+}
+
+.center-button:hover {
+    cursor: pointer;
+}
+
+.center-block-middle {
+    flex: 1;
+}
+
+.center-block-info {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #6f2c27;
+    color: white;
+}
+
+.center-block-info-home {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.center-block-info-news {
+    flex: 1;
+}
+
+.center-block-info-about {
+    flex: 1;
+}
+
+.chronology-albums {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.chronology-albums-PHM {
+    flex: 1;
+    text-align: center;
+}
+
+.chronology-albums-broken {
+    flex: 1;
+    text-align: center;
+}
+
+.chronology-albums-downward {
+    flex: 1;
+    text-align: center;
+}
+
+.chronology-name {
+    display: block;
+    text-align: center;
+    background-color: #a2a9b1;
+}
+
+.ghosts-name {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-family: 'DINEngschrift', 'Arial', sans-serif;
+}
+
+.ghosts-info-image1 {
+    height: 490px;
+    margin-right: 15px;
+}
+
+.ghosts-info {
+    margin: 15px;
+    width: 100%;
+    font-size: 22px;
+
+}
+
+.ghosts-image-1 {
+    width: 400px;
+    height: 350px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.ghosts-image-1-1 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    float: right;
+    align-self: center;
+}
+
+.ghosts-halo {
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.right-disk {
+    display: block;
+    margin-left: 50px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.below-track-listing {
+    display: flex;
+    flex-direction: row;
+    height: 310px;
+    margin-right: 10px;
+}
+
+.track-listing {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-family: 'DINEngschrift', 'Arial', sans-serif;
+}
+
+.listings {
+    font-size: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.downward-picture-1 {
+    margin-left: 75px;
+}
+
+.downward-picture-1-image {
+    width: 300px;
+    height: 300px;
+    border: 1px black solid;
+}
+
+.background {
+    margin-top: 15px;
+    margin-left: 30px;
+    display: inline-block;
+    width: 450px;
+    font-size: 30px;
+}
+
+.backgroundd {
+    margin-top: 15px;
+    margin-left: 30px;
+    display: inline-block;
+    width: 100%;
+    font-size: 30px;
+}
+
+.background-text {
+    font-size: 22px;
+    margin-right: 35px;
+}
+
+.band-photo {
+    margin-right: 10px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+    background-color: red;
+}
+
+.writing {
+    margin-top: 15px;
+    margin-left: 30px;
+    display: inline-block;
+    width: 450px;
+    font-size: 30px;
+}
+
+.writingg {
+    margin: 10px;
+    font-size: 17px;
+}
+
+.music-lyrics {
+    margin-top: 15px;
+    margin-left: 30px;
+    display: inline-block;
+    width: 450px;
+    font-size: 30px;
+}
+
+.writingg-songwriting {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.music-and-lyrics {
+    margin: 10px;
+    font-size: 17px;
+}
+
+.music-photo {
+    width: 300px;
+    height: 300px;
+    float: right;
+    border: 1px black solid;
+    margin: 10px;
+
+}
+
+.inspiration-text {
+    font-size: 22px;
+}
+
+.audio {
+    display: flex;
+    flex-direction: row;
+}
+
+.audio-1 {
+    margin-right: 20px;
+}
+
+.audio-1-text {
+    text-align: center;
+}
+
+.audio-2-text {
+    text-align: center;
+}
+
+.release-title {
+    margin-top: 15px;
+    margin-left: 30px;
+    display: block;
+    width: 450px;
+    font-size: 30px;
+}
+
+.release-text-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.release-text {
+    margin: 10px;
+    font-size: 22px;
+}
+
+.release-image {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    margin-right: 10px;
+    border: 1px black solid;
+}
+
+
+.photos-title {
+    margin-top: 15px;
+    margin-left: 30px;
+    display: block;
+    width: 450px;
+    font-size: 30px;
+}
+
+.photos-1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.broken-era-1 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    flex: 1;
+    margin-left: 5px;
+}
+
+.broken-era-2 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    flex: 1;
+}
+
+.photos-2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.broken-era-3 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    flex: 1;
+    margin-left: 5px;
+}
+
+.broken-era-4 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    flex: 1;
+}
+
+.head-like-a-hole {
+    margin-right: 15px;
+    width: 700px;
+    height: 300px;
+    display: inline-block;
+}
+
+.center-block-bottom {
+    width: 100%;
+    height: 100px;
+    flex: 100px;
+    margin-top: 0px;
+    margin-left: 5px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    display: block;
+}
+
+.right-block {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 278%;
+    width: 30%;
+    margin-left: 5px;
+
+}
+
+.right-block-top {
+    display: inline-block;
+    background-color: grey;
+    height: 100px;
+}
+
+.right-socialmedia {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 500px;
+    width: 30%;
+}
+
+.facebook {
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.instagram {
+    width: 75%;
+}
